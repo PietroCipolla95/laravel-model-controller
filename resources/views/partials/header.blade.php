@@ -6,7 +6,7 @@
                 <a class="fs-4 px-5" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="fs-4 px-5" href="#">Movies</a>
+                <a class="fs-4 px-5" href="/movies">Movies</a>
             </li>
         </ul>
     </nav>

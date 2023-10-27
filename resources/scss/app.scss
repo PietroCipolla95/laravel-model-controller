@@ -3,6 +3,7 @@
 @import './partials/header';
 @import './partials/footer';
 @import './partials/welcome';
+@import './partials/movies';
 
 
 a {
@@ -12,4 +13,8 @@ a {
         color: lightcoral;
     }
 
+}
+
+h1 {
+    font-size: 4rem;
 }
