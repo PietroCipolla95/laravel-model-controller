@@ -10,11 +10,6 @@ class PageController extends Controller
 {
     public function index()
     {
-        $movies = config('laravel_model_controller');
-
-
-        dd($movies);
-
-        return view('welcome', compact('movies'));
+        return view('welcome', ['movies' => Movie::all()]);
     }
 }
